@@ -22,7 +22,6 @@ namespace CRUD.Function
                 , options=>options.EnableRetryOnFailure());
             });
 
-
             builder.Services.AddTransient<ICRUDService, CrudService>();
 
         }
